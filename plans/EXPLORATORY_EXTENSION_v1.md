@@ -1,0 +1,11 @@
+# Exploratory cross-cohort reproducibility extension
+
+2026-10-29, after the original five-candidate external results were inspected. The original locked analysis remains unchanged and failed its replication criterion. This extension is explicitly post hoc and cannot be described as its confirmatory success.
+
+Rationale: the scientific question concerns reproducible proliferation-adjusted expression across the precursor/invasion boundary, whereas the original protocol tested only the five most strongly ranked discovery candidates. The frozen discovery criteria yielded 257 qualified candidates. Testing this entire predefined pool with multiplicity correction can assess cross-cohort reproducibility without cycling through individual genes.
+
+Use all 257 genes already meeting discovery adjusted FDR<0.05 and absolute beta>=0.5; no changes to score definitions, processing, sample exclusion or gene-selection thresholds. Test adjusted models in GSE138080 and GSE7803. BH-correct over all 257 candidates within each cohort, with unmeasured/non-estimable genes assigned P=1. Require same discovery direction and FDR<0.05 in BOTH external cohorts to identify exploratory reproducible candidates. Report all tests and all failures, not only the intersection. This three-study intersection is an exploratory joint analysis, not untouched validation.
+
+Independently retrieve metadata and assess feasibility of GSE223804 and GSE64217. Do not use their expression-stage associations to select candidates from the three-cohort exploratory intersection. If an eligible new independent dataset is available, lock all exploratory intersection genes (maximum 10, ranked by worst external FDR, with discovery P as tiebreaker) before opening its expression matrix, and validate the same conditional association with Holm correction. An RNA-seq cohort requires documented raw count normalization (e.g. log2(CPM+1)); it cannot be treated as preprocessed microarray intensity. Do not treat cytological CIN, carcinoma, or clinical stage categories as histology without checking source metadata.
+
+If only weak or previously well-characterized signals remain, describe them as such and do not claim a new molecule or establish a mechanism. Any later manuscript must disclose the original failed top-five screen, this extension and all validation roles.

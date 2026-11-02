@@ -1,0 +1,98 @@
+[
+  {
+    "status": "downloaded",
+    "file": "GSE51993-GPL10558_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE51nnn/GSE51993/matrix/GSE51993-GPL10558_series_matrix.txt.gz",
+    "bytes": 4793248,
+    "sha256": "f41024e20aa2cd855585a2343030401b1ac9cc1b700ba8fa5369948f3466d0d3",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GPL10558.annot.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL10nnn/GPL10558/annot/GPL10558.annot.gz",
+    "bytes": 7290886,
+    "sha256": "c914fdbe1130906ce3b9c97f5a75280591c89c617c168fb687c641f683e76b45",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE149763_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149763/matrix/GSE149763_series_matrix.txt.gz",
+    "bytes": 3268,
+    "sha256": "84edcb8a6324519cfa74e160c4035eb251516c81c131c76402368c97f9dcea8a",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE149763_expressed_gene_reads.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149763/suppl/GSE149763_expressed_gene_reads.txt.gz",
+    "bytes": 1239121,
+    "sha256": "939170c8a0f303ad1f150b64c80f2aa7fe4d4e92b3ef0a7bd6670d51bf3a0900",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE149763_expressed_gene_RPKM.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149763/suppl/GSE149763_expressed_gene_RPKM.txt.gz",
+    "bytes": 1378507,
+    "sha256": "1b349cb5caef575f17a03ee339f2d9c33d94e590a6ebf8fd6834a3c4a04521b1",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE166466_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166466/matrix/GSE166466_series_matrix.txt.gz",
+    "bytes": 15861444,
+    "sha256": "82e982d99d653e68a0cb0316c1f03c3b5c7d4d026696bda5058a2e6efabf0e04",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE75132_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE75nnn/GSE75132/matrix/GSE75132_series_matrix.txt.gz",
+    "bytes": 8557900,
+    "sha256": "b889b293dbc6067767448885336c685cfb602a6f9972303b6a16ae8a349bfb65",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE208653_filelist.txt",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE208nnn/GSE208653/suppl/filelist.txt",
+    "bytes": 1979,
+    "sha256": "cfc01a3e6cbc808b77b7fa0c12581fa3295076e08d45b94f7a575036c02b29a6",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE147009_metadata.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147009&targ=self&form=text&view=full",
+    "bytes": 3174,
+    "sha256": "0bf2b3e889ac912fb51e0e35cc2d715a96e9f933b96348c831a328afc410f29b",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE27678-GPL570_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27678/matrix/GSE27678-GPL570_series_matrix.txt.gz",
+    "bytes": 9955524,
+    "sha256": "b4f8845b0b8c1d9b03598000e5319b63737ea995232d0082f803a122fcb6eef6",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GSE27678-GPL571_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27678/matrix/GSE27678-GPL571_series_matrix.txt.gz",
+    "bytes": 5456291,
+    "sha256": "8338b704d348de8cf33823736364b2608dbebc923c4774b04052949f3f851a93",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:11Z"
+  },
+  {
+    "status": "downloaded",
+    "file": "GPL23126_metadata.txt",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL23126&targ=self&form=text&view=full",
+    "bytes": 1071626822,
+    "sha256": "bb6b4a4fabb50bf1e64d2ea3f490e7358d49da4ee12a75617ee3d5965f9eea13",
+    "verified_or_retrieved_utc": "2026-10-29T11:44:15Z"
+  }
+]

@@ -1,0 +1,9 @@
+# Newly held-out RNA-seq cohort
+
+Fixed after the three-microarray exploratory intersection was computed, before downloading/opening GSE223804 expression values. The three genes are PLOD2, DEPTOR and KLK11. All three will be tested and reported, without selecting by literature novelty or expected result.
+
+GSE223804 has author-provided CPM rather than raw integer counts. Use log2(CPM+1), not a count-based differential expression model. Primary contrast: four explicitly high-grade precancers (CIN_1, CIN_2, CIN_3, CIN_4; CIN2/3 or CIN3/in situ) versus nine invasive SCC samples (CR_1 to CR_9). Exclude CIN_5 (CIN1) and the two normal tissues. Clearly state that this is whole tissue and broader high-grade precancer, whereas the original discovery was laser-captured CIN3. Reuse the frozen platform-common ranking universe intersected with measured RNA genes for the same proliferation-score calculation; record coverage.
+
+For all three frozen targets, fit the same HC3 expression ~ invasive group + standardized proliferation score with t residual-df inference. Holm-correct over all three genes, including unmeasured/non-estimable tests as P=1. Require direction concordance with the original discovery and Holm P<0.05. Report all coefficients/intervals, unadjusted effects, group-score overlap and the 4-versus-9 sample limitation. No significance claim about future progression or a molecular mechanism follows.
+
+Sensitivity only: include CIN1 for a five-precancer contrast; E2F-only, G2M-only and fixed-panel score; quadratic proliferation term; leave-one-out coefficients. Do not upgrade a failed primary test using one of these alternatives. GSE64217 is excluded from inferential validation because only two CIN and two cancer samples are available; its matrix and metadata are retained only as a feasibility audit.

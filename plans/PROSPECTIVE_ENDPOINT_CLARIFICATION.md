@@ -1,0 +1,7 @@
+# Prospective-source endpoint clarification
+
+Written 2026-10-29 after inspecting the complete GEO disease-state field. The original paper analyzes CIN3+ follow-up, but the GEO category=2 progression group includes 4 moderate dysplasia, 9 severe dysplasia, 6 CIS and 1 cancer annotation. Thus agreement of title and binary category establishes a GEO progression-label comparison, not that every member satisfies a strict CIN3+ endpoint. No individual times or grade chronology are available to resolve whether moderate dysplasia was an intermediate or final diagnosis.
+
+Retain the frozen-target primary metadata-label comparison (20 category=2 versus 10 category=1). Describe it as provisional mixed-grade progression-label association, not confirmed CIN3+ prediction. Add a sensitivity excluding the four moderate-dysplasia records, leaving 16 severe/CIS/cancer annotations versus 10 none; call this a restricted annotation subset, not a fully verified time-to-CIN3+ cohort. Do not relabel the four moderate records as non-progressors, impute event times or fit survival models.
+
+Keep all thirteen frozen genes and the program. Holm over the 14 primary tests remains historical; report Holm within the restricted 14 and conservatively across both 14-test sets (28 total). This is an endpoint-audit extension after initial results, not a prospectively specified endpoint or a replacement chosen for smaller P values. If neither supports the program, retain that limit. No change to any tissue validation outcome is made.

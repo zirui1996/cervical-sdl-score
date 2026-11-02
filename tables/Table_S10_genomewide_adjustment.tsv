@@ -1,0 +1,4 @@
+cohort	genes_tested	unadjusted_fdr_lt_05	adjusted_fdr_lt_05	both	unadjusted_only	adjusted_only	coefficient_sign_changes	median_absolute_standardized_coefficient_change
+GSE63514	6685	265	281	247	18	34	238	0.0335047863791074
+GSE138080	6388	444	99	69	375	30	1915	0.4526778912038472
+GSE7803	6685	814	195	143	671	52	1435	0.3547228605692111

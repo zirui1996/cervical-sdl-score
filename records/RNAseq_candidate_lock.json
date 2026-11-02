@@ -1,0 +1,12 @@
+{
+  "locked_utc": "2026-10-29T10:11:46Z",
+  "genes": [
+    "PLOD2",
+    "DEPTOR",
+    "KLK11"
+  ],
+  "selection": "all three-cohort intersection genes; no literature filter",
+  "validation": "GSE223804",
+  "plan_sha256": "796880c3f7245633019f8b06ed1b786c28f0c65fbf120814841907e303ecea4a",
+  "expression_not_yet_opened": true
+}

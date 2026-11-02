@@ -1,0 +1,5 @@
+# GSE215744 transfer check
+
+Post hoc extension, 2026-10-29, before calculating frozen-score group outcomes. Nine exfoliative cytology samples have matched pathology; these are not tissue-section RNA validation. Primary comparison: four HSIL/CIS versus two invasive SQCC; three cervicitis samples are context only. Preserve fixed ten-gene programme, gene universe and Composite score. Use source integer ReadCount summed by symbol, log2(CPM+1); TPM rank scoring is a same-patient sensitivity. Primary OLS: within-analysis standardized programme ~ invasive group + standardized Composite, HC3 residual-df t. Correct the two processing tests together using Holm; report wide intervals and no power/clinical validity claims. Do not use source DEG columns, change genes, or count the two processing routes as independent studies.
+
+Input audit amendment: specimen GSM6638130 has no TPM column. Use source RPKM for the prespecified processing sensitivity, available in all nine files, without dropping this specimen. Earlier positional extraction mistakenly read a DEG column as its TPM; those sensitivity outputs are invalid and superseded. The count primary is unchanged.

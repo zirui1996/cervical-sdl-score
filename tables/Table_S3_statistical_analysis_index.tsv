@@ -1,0 +1,18 @@
+analysis	family_size	correction	tests_included	role	timing	reported_in
+Discovery integration	6388	BH	Every gene measurable in all three development studies; weighted Stouffer combination	Development (feature selection)	Plan saved before ranking	Methods; S9
+Original additional-tissue evaluation	42	Holm	13 targets (3 earlier candidate genes + 10 SDL members) plus the score, each in GSE166466, GSE149763 and GSE147009 (14 × 3)	Primary for GSE166466	Prespecified before these sources were analyzed	Results (GSE166466 Holm P); S4
+GSE14404 primary extension	3	Holm	SDL score: primary Cy5 SCC model; Cy5 including unspecified carcinoma; author log-ratio model	Primary for GSE14404	Prespecified in the GSE14404 plan before target models	Results (GSE14404 Holm P); S16
+Additional tissue score summary	4	Holm	SDL score in GSE166466, GSE14404, GSE149763 and GSE147009	Summary across additional sources	Post hoc, created for the manuscript; earlier families unchanged	S4
+GSE14404 assay controls	5	Holm	Prefix adjustment; prefix restriction; Cy3 reference comparison; reference-score adjustment; ratio plus prefix	Sensitivity	Specified in an addendum after the primary GSE14404 estimate	Results; S16
+Stage context	252	BH	14 targets (13 genes + score) × 3 contrasts (intermediate − baseline, late − intermediate, difference of changes) × 6 sources (GSE63514, GSE138080, GSE7803, GSE166466, GSE147009, GSE51993)	Secondary	Exploratory; defined with the original stage analysis	Table 3; S15
+Full grades and IA extension	13	Holm	GSE63514: 4 adjacent-grade steps + 3 differences of steps; GSE223804: 3 IA/IB contrasts × 2 processing routes	Secondary (development data descriptive)	Post hoc extension	Results; S14
+LOSO reselection	3	Holm	One fold-specific score per held-out development study	Selection-rule stress test	Post hoc	Results; S17
+Conditional reference panels	12	Holm (descriptive tails)	3 reference families × 4 contexts; 2,000 panels each	Descriptive	Post hoc; not phenotype-permutation P values	Results; S18
+Endpoint sensitivity	28	Holm	Full and restricted progression labels × 14 targets in GSE75132	Transfer (follow-up labels)	Post hoc; original 14-test results retained	Results; S22
+Cytology processing	2	Holm	Count and RPKM routes in the same six GSE215744 profiles	Transfer (cytology)	Fixed score, separate specimen type	Results; S22
+Single-cell depth matching	4 scopes	Descriptive	2 sources × 2 epithelial scopes; 200 technical draws each	Transfer (single cell)	Post hoc	Results; S20, code archive
+Manuscript-stage: adjusted versus unadjusted	8	None (estimation)	SDL score with and without Composite in the eight primary comparisons	Interpretation of adjustment	Post hoc, added during manuscript preparation	Table 2; S4
+Manuscript-stage: member-number sensitivity	28	None (estimation)	Top 5/10/15/20 qualified genes in seven sources	Sensitivity	Post hoc, added during manuscript preparation; frozen score unchanged	Results; S5
+Manuscript-stage: score–marker correlation	21 pooled + 21 group-adjusted	BH (separately)	3 marker sets × 7 sources; pooled, group-adjusted partial and within-group Spearman	Descriptive	Post hoc, added during manuscript preparation	Results; S6
+Manuscript-stage: stage-group marker profiles	12	Descriptive	Group means in four sources with normal groups	Descriptive	Post hoc, added during manuscript preparation	Results; S7
+Manuscript-stage: independent stage checks	6	None (estimation)	GSE51993 (2 adjacent steps); GSE14404 (3 adjacent steps + 1 difference of changes)	Stage localization in sources not used for selection	Post hoc, added during manuscript preparation	Results; S8

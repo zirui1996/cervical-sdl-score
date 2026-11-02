@@ -1,0 +1,7 @@
+# Assay negative-control addendum
+
+Post hoc, written after viewing primary GSE14404 score results, before computing reference-channel score outcomes. The raw Cy5 result is positive. With only three CIN3 samples, and all three in the source description prefix hoae (alongside four SCC), a technical explanation must be tested before using it to retain a broad main line. Do not count these models as independent patient replications.
+
+Five tests, Holm jointly across this addendum: (1) Cy5 score ~ group + Composite + description-prefix batch; (2) same primary model within the early hoae prefix only; (3) universal-reference Cy3 frozen-score ~ group (no biological group difference is expected in the same reference RNA); (4) Cy5 score ~ group + Composite + universal-reference Cy3 frozen score; (5) author log-ratio score ~ group + Composite + description-prefix batch. All programme scores standardized within the relevant comparison and HC3 residual-df t intervals used. Model rank and group counts checked; common reference is a technical control and cannot establish biological causation. Prefix is a metadata proxy, not a verified full laboratory batch identifier.
+
+Mapping correction: native GPL6699 MetaColumn ranges1–12 and MetaRow1–4. GPR block=(MetaColumn−1)*4+MetaRow. Initial opposite-dimension mapping generated duplicate positions and failed before score fitting. Corrected physical mapping reconstructs each author's source ratio; all forty sample correlations are checked. No phenotype outcomes were used for physical-coordinate mapping.

@@ -1,0 +1,50 @@
+{
+  "locked_utc": "2026-10-29T11:03:31Z",
+  "candidates": [
+    {
+      "gene": "FCGBP",
+      "direction": -1
+    },
+    {
+      "gene": "CRNN",
+      "direction": -1
+    },
+    {
+      "gene": "NT5C2",
+      "direction": -1
+    },
+    {
+      "gene": "MALL",
+      "direction": -1
+    },
+    {
+      "gene": "CLCA4",
+      "direction": -1
+    },
+    {
+      "gene": "TST",
+      "direction": -1
+    },
+    {
+      "gene": "PIK3C2B",
+      "direction": -1
+    },
+    {
+      "gene": "PINLYP",
+      "direction": -1
+    },
+    {
+      "gene": "GOT2",
+      "direction": -1
+    },
+    {
+      "gene": "DUOX1",
+      "direction": -1
+    }
+  ],
+  "minimum_measured": 8,
+  "weight": "equal signed fractional rank",
+  "plan_sha256": "0af7f8ec2317750896b61ffd7497ce27fd0dc16f7bc369ab60c029ad0f76eed9",
+  "new_target_models_not_yet_run": true,
+  "timing_note": "See plan for header-only and non-target format preview before the list lock."
+}

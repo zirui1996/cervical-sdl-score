@@ -1,0 +1,51 @@
+[
+  {
+    "file": "GSE63514_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE63nnn/GSE63514/matrix/GSE63514_series_matrix.txt.gz",
+    "bytes": 38024966,
+    "sha256": "68f71f67bff6455fbddc87518006bf59263b310bcd90ae9c245bb35039f6edf2",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  },
+  {
+    "file": "GSE138080_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE138nnn/GSE138080/matrix/GSE138080_series_matrix.txt.gz",
+    "bytes": 5375544,
+    "sha256": "5c38cadb02332ed3185f8e0bd914a5d97670e6dd06d78585131b7139515be294",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  },
+  {
+    "file": "GSE7803_series_matrix.txt.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE7nnn/GSE7803/matrix/GSE7803_series_matrix.txt.gz",
+    "bytes": 2952567,
+    "sha256": "fc4e59f5f7f9fe48d15c89f81d88a562e986d7d15d76ee2919eb64fbb71b5282",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  },
+  {
+    "file": "GPL570.annot.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL570/annot/GPL570.annot.gz",
+    "bytes": 8471521,
+    "sha256": "d7cd44352127b1e34f3a720ebea86093ef255a38f1612a85a2962b71bde8f394",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  },
+  {
+    "file": "GPL4133.annot.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL4nnn/GPL4133/annot/GPL4133.annot.gz",
+    "bytes": 9258564,
+    "sha256": "0b82bf430eb95b985d0ca1043bb9ff98678d3ead613f74cb65ec5ae0416c3f85",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  },
+  {
+    "file": "GPL96.annot.gz",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPLnnn/GPL96/annot/GPL96.annot.gz",
+    "bytes": 4522748,
+    "sha256": "88e0b22362bac779eb220b3b185c80faa6510a92b9358eaad159a561ab4351c4",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  },
+  {
+    "file": "h.all.v2025.1.Hs.symbols.gmt",
+    "url": "https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2025.1.Hs/h.all.v2025.1.Hs.symbols.gmt",
+    "bytes": 48689,
+    "sha256": "f22066af72e215ccb7b89d88e492c07e1eef17534c2ca7b0f9902cfecbbdd8e9",
+    "verified_or_retrieved_utc": "2026-10-29T10:07:17Z"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "locked_utc": "2026-10-29T10:57:30Z",
+  "genes": {
+    "PLOD2": 1,
+    "DEPTOR": -1,
+    "KLK11": -1
+  },
+  "new_primary_tissue_cohorts": [
+    "GSE166466",
+    "GSE149763"
+  ],
+  "plan_sha256": "ff05af6f01b42ba0c8306aac8ad2eeb43c4603dc32b0a9f833ae93f0aa92ab37",
+  "new_expression_not_yet_opened": true,
+  "other_roles": {
+    "GSE51993": "precursor stage context",
+    "GSE75132": "provisional longitudinal endpoint transfer, labels require audit",
+    "GSE208653": "specimen-level descriptive localization",
+    "GSE27678": "platform-confounding audit"
+  }
+}

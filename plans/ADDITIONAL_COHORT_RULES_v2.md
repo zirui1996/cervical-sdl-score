@@ -1,0 +1,32 @@
+# Additional cohort and biological-context extension
+
+Written 2026-10-29 after existing analyses, while screening new cohort metadata and before downloading/opening the new expression matrices. Manuscript preparation was paused to expand the code and data. These are additional exploratory/held-out analyses, not retrospective replacements of the original plan.
+
+## Main focus
+
+Define the reproducibility and stage/context dependence of proliferation-adjusted cervical precursor/invasion associations. The contribution should come from pathology-matched independent evidence, stage-specific contrasts and tissue/cell-source checks. No new diagnostic score, survival model, drug prediction or causal mechanism is planned merely to increase figure count.
+
+## Fixed candidate evidence
+
+Keep all three frozen exploratory genes PLOD2 (discovery direction positive), DEPTOR (negative), KLK11 (negative). Do not replace genes based on new outcomes. Retain the failed original five-gene screen and prior GSE223804 results.
+
+### New tissue cohorts
+
+- GSE166466: metadata reports 7 normal, 6 HPV16-positive HSIL and 7 HPV16-positive SCC; GPL23126 is the Clariom D Human transcript/gene array. Verify sample pathology, processing scale, sample independence and probe annotation before analysis. If usable, primary new comparison is all eligible HSIL versus SCC, keeping normals descriptive/stage-context only. Use the existing Composite score definition and primary HC3 model; rank markers over the original annotation-common gene universe intersected with measured genes. Apply Holm across all three frozen genes in this new cohort, unmeasured as P=1. A sensitivity applies Holm to the six new tissue-cohort tests jointly.
+- GSE149763: metadata reports three CIN3, three stage IIA cervical cancers and three cervicitis samples with count and RPKM matrices. If usable, primary comparison is three CIN3 versus three cancer samples. Because n=6, regard effect intervals as imprecise; no clinical discrimination claim. Use log2(CPM+1) from verified nonnegative integer gene-read counts, the existing score, HC3 and Holm over all three genes. Author RPKM is a separate sensitivity. Do not pretend that n=6 yields decisive confirmation. Broader correction across these six tests and the prior three RNA tests will also be reported.
+- GSE27678: source metadata shows pathology/platform confounding (precursors GPL571, cancers GPL570). Download matrices for a sample/platform audit, but do not call HSIL versus SCC a valid independent confirmation if the design remains non-identifiable. Neither ComBat nor pooled gene mapping can resolve perfect confounding.
+- GSE124288: only two precursors and two microinvasive cancers, with potential source overlap with GSE223804. Metadata/source review only; do not count as an additional independent validation cohort without donor verification.
+
+### Stage context
+
+- GSE51993: a new independent mRNA array cohort with 7 normal, 9 CIN1 and 8 CIN3 specimens. Exclude its miRNA platform. Test the frozen genes across stage contrasts with and without Composite adjustment after source-scale review. It cannot validate invasive cancer, which is absent. HPV-negative normals versus HPV-positive lesions are not isolated grade effects.
+- In the three existing tissue cohorts, use their existing normal and precursor samples to compare normal-to-HSIL and HSIL-to-cancer contrasts for the same frozen genes. Fit stage dummy terms and Composite score, use HC3 covariance for contrasts, and correct all tested candidate/contrast hypotheses within this extension's stage-comparison family. A nonsignificant early contrast is not evidence of an invasion-specific gene. Any direct difference of early and late contrasts must be tested as such.
+- GSE75132: prospective HPV16-persistence cohort with 30 HPV16-persistent women and 11 HPV-negative controls. Source titles and some published secondary summaries disagree about whether progression counts are 20/10 or 10/20. Inspect original paper and sample characteristics before any clinical interpretation. Analyze only source-consistent labels, explicitly flag unresolved discrepancies, and do not fit survival models without individual follow-up times. CIN3+ development is a different endpoint from established invasion. Freeze three-gene tests, no newly trained predictor. If labels cannot be reconciled, retain an explicitly provisional metadata-label comparison and exclude it from validated clinical claims.
+
+### Cellular composition and localization
+
+- In the original bulk cohorts, add frozen immune and stromal expression proxies as supportive covariates alongside Composite. Immune markers: PTPRC, CD3D, CD3E, CD79A, MS4A1, LST1, TYROBP, FCER1G. Stromal markers: COL1A1, COL1A2, COL3A1, DCN, LUM, PDGFRA. These are rank-expression proxies, not calibrated cell fractions. Keep all measured markers and report coverage, collinearity and sample numbers; do not substitute markers based on significance.
+- GSE208653: raw count matrices for 9 specimens, including 2 HPV-negative normal, 2 HPV-positive histologically normal, 2 HSIL, 2 SCC and 1 ADC (explicit file names identify ADC). Run count-level QC and canonical-marker lineage review, excluding ADC from the squamous lesion contrast. Generate patient-by-lineage pseudobulk/count summaries for the three genes and gene programs, using specimens rather than cells as the unit of replication. With only 2 HSIL and 2 SCC donors, this is descriptive localization, not powered confirmatory validation or a temporal trajectory. Do not assign all epithelial cells malignant identity or use cell-wise P values to inflate n.
+- GSE333892: 52 primary-tissue specimens, but public processed RDS is approximately 21 GiB and documentation says cell-cycle regression was already performed. Current runtime has 8 GiB RAM. Retain source/README audit; do not claim analysis of 52 donors or independent proliferation correction without a suitable unregressed expression/count subset and adequate resources. Organoid perturbation files are not patient validation and would require a separately justified mechanistic question.
+
+All additions must be retained regardless of sign or significance. Report a cohort eligibility matrix with roles and exclusion reasons, full numerical outputs, provenance checksums and reproducible scripts. Scope and readiness decisions follow actual evidence; adding cohorts alone does not ensure journal acceptance.
